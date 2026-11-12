@@ -34,66 +34,38 @@
       -webkit-font-smoothing: antialiased;
     }
 
-    .container {
-      max-width: 780px;
-      margin: 0 auto;
-    }
+    .container { max-width: 780px; margin: 0 auto; }
 
     /* ===== Header ===== */
-    .brand-bar {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 28px;
-    }
+    .brand-bar { display: flex; align-items: center; gap: 10px; margin-bottom: 28px; }
     .brand-logo {
-      width: 36px;
-      height: 36px;
-      border-radius: 50%;
+      width: 36px; height: 36px; border-radius: 50%;
       background: var(--brand-soft);
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      display: flex; align-items: center; justify-content: center;
       font-size: 18px;
     }
     .brand-name {
-      font-size: 18px;
-      font-weight: 700;
-      color: var(--brand);
-      letter-spacing: -0.2px;
+      font-size: 18px; font-weight: 700;
+      color: var(--brand); letter-spacing: -0.2px;
     }
 
     /* ===== Title block ===== */
     h1 {
-      font-size: 28px;
-      font-weight: 800;
-      color: var(--ink);
-      letter-spacing: -0.5px;
+      font-size: 28px; font-weight: 800;
+      color: var(--ink); letter-spacing: -0.5px;
       margin-bottom: 8px;
     }
-    .subtitle {
-      font-size: 13px;
-      color: var(--muted);
-      margin-bottom: 6px;
-    }
+    .subtitle { font-size: 13px; color: var(--muted); margin-bottom: 6px; }
     .updated-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      background: var(--success-soft);
-      color: var(--success);
-      font-size: 11px;
-      font-weight: 700;
-      padding: 4px 10px;
-      border-radius: 20px;
+      display: inline-flex; align-items: center; gap: 6px;
+      background: var(--success-soft); color: var(--success);
+      font-size: 11px; font-weight: 700;
+      padding: 4px 10px; border-radius: 20px;
       margin-bottom: 24px;
     }
     .updated-badge::before {
-      content: "";
-      width: 7px;
-      height: 7px;
-      border-radius: 50%;
-      background: var(--success);
+      content: ""; width: 7px; height: 7px;
+      border-radius: 50%; background: var(--success);
     }
 
     /* ===== Card ===== */
@@ -107,66 +79,41 @@
 
     /* ===== Sections ===== */
     .section {
-      padding-bottom: 22px;
-      margin-bottom: 22px;
+      padding-bottom: 22px; margin-bottom: 22px;
       border-bottom: 1px solid #F1F5F9;
     }
     .section:last-child {
-      border-bottom: none;
-      padding-bottom: 0;
-      margin-bottom: 0;
+      border-bottom: none; padding-bottom: 0; margin-bottom: 0;
     }
 
     h2 {
-      font-size: 16px;
-      font-weight: 700;
-      color: var(--ink);
-      margin-bottom: 10px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
+      font-size: 16px; font-weight: 700;
+      color: var(--ink); margin-bottom: 10px;
+      display: flex; align-items: center; gap: 10px;
     }
     .num {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 26px;
-      height: 26px;
-      border-radius: 8px;
-      background: var(--brand-soft);
-      color: var(--brand);
-      font-size: 12px;
-      font-weight: 800;
-      flex-shrink: 0;
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 26px; height: 26px; border-radius: 8px;
+      background: var(--brand-soft); color: var(--brand);
+      font-size: 12px; font-weight: 800; flex-shrink: 0;
     }
 
     p { margin-bottom: 10px; }
     p:last-child { margin-bottom: 0; }
 
-    ul {
-      list-style: none;
-      margin: 8px 0 4px;
-    }
+    ul { list-style: none; margin: 8px 0 4px; }
     ul li {
-      position: relative;
-      padding-left: 22px;
-      margin-bottom: 8px;
-      font-size: 14.5px;
+      position: relative; padding-left: 22px;
+      margin-bottom: 8px; font-size: 14.5px;
     }
     ul li::before {
-      content: "•";
-      position: absolute;
-      left: 8px;
-      top: 0;
-      color: var(--brand);
-      font-weight: 900;
+      content: "•"; position: absolute; left: 8px; top: 0;
+      color: var(--brand); font-weight: 900;
     }
 
     a {
-      color: var(--brand);
-      text-decoration: none;
-      font-weight: 600;
-      word-break: break-word;
+      color: var(--brand); text-decoration: none;
+      font-weight: 600; word-break: break-word;
     }
     a:hover { text-decoration: underline; }
 
@@ -178,15 +125,10 @@
       padding: 14px 16px;
       font-size: 13.5px;
       color: var(--ink-soft);
-      display: flex;
-      gap: 10px;
+      display: flex; gap: 10px;
       margin-top: 10px;
     }
-    .callout .icon {
-      font-size: 16px;
-      line-height: 1.5;
-      flex-shrink: 0;
-    }
+    .callout .icon { font-size: 16px; line-height: 1.5; flex-shrink: 0; }
 
     /* ===== Contact box ===== */
     .contact {
@@ -198,16 +140,10 @@
       text-align: center;
     }
     .contact h3 {
-      font-size: 15px;
-      font-weight: 700;
-      color: var(--ink);
-      margin-bottom: 6px;
+      font-size: 15px; font-weight: 700;
+      color: var(--ink); margin-bottom: 6px;
     }
-    .contact p {
-      font-size: 13px;
-      color: var(--muted);
-      margin-bottom: 10px;
-    }
+    .contact p { font-size: 13px; color: var(--muted); margin-bottom: 10px; }
     .contact a {
       display: inline-block;
       padding: 10px 22px;
@@ -228,7 +164,6 @@
     }
     footer a { color: var(--brand); }
 
-    /* ===== Responsive ===== */
     @media (max-width: 480px) {
       body { padding: 18px 12px 40px; }
       h1 { font-size: 22px; }
@@ -240,18 +175,15 @@
 <body>
   <div class="container">
 
-    <!-- Brand bar -->
     <div class="brand-bar">
       <div class="brand-logo">💧</div>
       <div class="brand-name">AquaTrack</div>
     </div>
 
-    <!-- Title -->
     <h1>Terms &amp; Conditions</h1>
     <p class="subtitle">Please read these terms carefully before using AquaTrack.</p>
     <div class="updated-badge">Last updated: November 12, 2026</div>
 
-    <!-- Main content -->
     <div class="card">
 
       <div class="section">
@@ -437,7 +369,7 @@
           please reach out to us at:
         </p>
         <p>
-          📧 <a href="mailto:support@aquatrack.app">support@aquatrack.app</a>
+          📧 <a href="mailto:sofi8758084@gmail.com">sofi8758084@gmail.com</a>
         </p>
       </div>
 
@@ -447,7 +379,7 @@
     <div class="contact">
       <h3>Need help with something else?</h3>
       <p>Visit our support page or contact us directly.</p>
-      <a href="mailto:support@aquatrack.app">Contact Support</a>
+      <a href="mailto:sofi8758084@gmail.com">Contact Support</a>
     </div>
 
     <!-- Footer -->
